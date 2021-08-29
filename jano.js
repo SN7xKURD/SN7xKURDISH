@@ -217,7 +217,7 @@ const jano200 = new Discord.Client();
 ////////
 jano.on("message", message => {
   if (!message.guild) return;
-  if (message.content === "wara") {
+  if (message.content === "!wara") {
     if (!(message.author.id)) return;
     if (message.member.voiceChannel) {
       message.member.voiceChannel
@@ -7393,7 +7393,7 @@ jano200.on("ready", () => {
 //////////////// tokn lera da bne 
 
 jano.login("ODc4OTk3ODU1OTEyNzUxMTE0.YSJdxg.YAHugV4LSRXXSRx2MTFR0VGgvmI");
-jano2.login("");
+jano2.login("NjgzNzU3OTE5ODQxMjg4MjI0.YSvkzw.KxiGOrEnJ-P9ElAzd-h9-eyi3d4 ");
 jano3.login("");
 jano4.login("");
 jano5.login("");
